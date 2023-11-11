@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        :root{
+            --bg-color:#90a6ae;
+            --bg-color-body: #edf0f2;
+            --txt-color: #263238;
+            --txt-color-h: #37474f; 
+        }
+        *{
+            font-family: 'Poppins', sans-serif; 
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+        h3{
+            border-bottom: 1px solid black;
+        }
+        @media (prefers-color-scheme:light){
+            body{
+                background-color: var(--bg-color);
+            }
+            h3{
+                color: var(--txt-color);
+                border-bottom: 1px solid var(--txt-color);
+            }
+            p{
+                color: var(--txt-color-h);
+            }
+        }
+        @media (prefers-color-scheme:dark){
+            body{
+                background-color: var(--txt-color);
+            }
+            h3{
+                color: var(--bg-color-body);
+                border-bottom: 1px solid var(--bg-color-body);
+            }
+            p{
+                color: var(--bg-color);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3>About Me</h3>
+    <p>Hello!, I am <span>Navadeepak.c </span> My native place is Erode district Tamilnadu. <br>i have completed my 10th std in Rangasamy Gounder Hr Sec School, Nadayanoor. <br>and then 12th std is SSV Hr Sec School, kodumudi. <br>and my bachelors degree is B tech (Information Technology) in VSB Engineering College,Karur. <br> i am instrested in Web developement and Ethical Hacking. <br>my Hobbis is Riding bike and Cooking <br>And there are 4 members in my family including me. <br>my father name is Chellathurai.M <br>My mother name is Kowsalya.C <br>and i have one younger brother his name is Aswin.C</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
